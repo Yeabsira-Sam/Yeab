@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color:cadetblue;
+    min-height: 100vh;
+    display:inline-table;
+    align-items: center;
+}
+h1{
+    color: brown;
+    font-size: 300%;
+    font-family: Castellar;
+}
+li{
+    color: white;
+    font-family: Arial Rounded MT Bold;
+    font-size: medium;
+}
+.pricing-table{
+    display:inline-table;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: min(160px,100%);
+    margin: auto;
+}
+.pricing-card{
+    flex:1;
+    max-width: 360px;
+    background-color: aqua;
+    margin: 20px 10px;
+    cursor: pointer;
+    overflow: hidden;
+    color: burlywood;
+}
+.pricing-card:hover .pricing

@@ -1,0 +1,18 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-decoration: none;
+list-style: none;
+}
+h1{ color:hotpink;
+    font-family: monospace;
+    font-size: 250%;
+    
+}
+p{ color:fuchsia;
+    font-family: fantasy;
+    font-size: 150%;}
+
